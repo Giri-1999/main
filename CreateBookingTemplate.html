@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset default styles */
+        body, p {
+            margin: 0;
+            padding: 0;
+        }
+        /* Main container */
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        /* Header */
+        .header {
+            background-color: rgb(255, 81, 0);
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        /* Content */
+        .content {
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        /* Button style */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(255, 81, 0);
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <div class="header">
+            <h1>Booking Successful!</h1>
+        </div>
+        <div class="content">
+            <p>Dear [Customer Name],</p>
+            <p>Your booking has been successfully confirmed. Here are the details:</p>
+            <ul>
+                <li><strong>BookingSummaryID:</strong> ABC123</li>
+                <li><strong>FromDate:</strong> [Booking Date]</li>
+                <li><strong>ToDate:</strong> [Booking Time]</li>
+                <li><strong>WorkspaceGroup:</strong> [Service/Room Name]</li>
+            </ul>
+            <p>Thank you for choosing our services. We look forward to serving you!</p>
+            <p>If you have any questions, feel free to contact us.</p>
+            <p>Best regards,</p>
+            <p>The [Your Company] Team</p>
+            <p style="text-align: center;"><a class="button" href="[Booking Details URL]">View Booking Details</a></p>
+        </div>
+    </div>
+</body>
+</html>
